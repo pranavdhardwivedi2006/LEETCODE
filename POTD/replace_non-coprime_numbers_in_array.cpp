@@ -1,6 +1,3 @@
-#include <bits/stdc++.h> 
-using namespace std;// For std::gcd and std::lcm
-
 class Solution {
 public:
     vector<int> replaceNonCoprimes(vector<int>& nums) {
