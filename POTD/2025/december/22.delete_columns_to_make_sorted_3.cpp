@@ -17,7 +17,7 @@ public:
     int minDeletionSize(vector<string>& strs) {
         n = strs.size(); m = strs[0].size();
         dp.resize(m, vector<int>(m, -1));
-        int ans = m;
+        int ans = m; 
         for(int i = 0; i < m; i++) ans = min(ans, i + rec(strs, i, i));
         return ans;
     }
